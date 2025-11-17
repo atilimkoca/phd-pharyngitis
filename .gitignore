@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+!best_hybrid_attention_model.pth
+!best_hybrid_fgcr_csba.pth
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data
+data_image_pharyngitis_nature/
+*.xlsx
+!excel.xlsx
+
+# Training outputs
+*.png
+!hybrid_attention_training_history.png
+!hybrid_fgcr_csba_training_history.png
+
+# Research papers
+*.pdf
+
+# Logs
+*.log
+
+# Claude
+.claude/
