@@ -28,11 +28,9 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# PyTorch
+# PyTorch Models (exclude all .pth files)
 *.pth
 *.pt
-!best_hybrid_attention_model.pth
-!best_hybrid_fgcr_csba.pth
 
 # IDEs
 .vscode/
